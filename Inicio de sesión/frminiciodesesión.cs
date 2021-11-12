@@ -37,10 +37,7 @@ namespace Inicio_de_sesión
             {
                 DialogResult respuesta = MessageBox.Show("Datos erroneos", "Intentelo nuevamente",
                     MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
-                if (respuesta == DialogResult.Cancel)
-                {
-                    Application.Exit();
-                }
+               
                 if (respuesta == DialogResult.Retry)
                 {
                     
